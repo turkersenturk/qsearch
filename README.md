@@ -38,13 +38,10 @@ docker-compose logs -f
 
 **Ready!** API is running at http://localhost:8000
 
-#### Monitoring with Flower (Optional)
 
 ```bash
 # Start with Flower included
 docker-compose --profile monitoring up -d
-
-# Flower UI: http://localhost:5555
 ```
 
 #### Services
